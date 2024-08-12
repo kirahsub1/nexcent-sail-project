@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    border: 2px solid black;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 25px;
+    align-items: center;
+    background-color: white;
+}
+.nav-logo{
+    margin-left: 100px;
+}
+.navlinks-btn{
+    display: flex;
+    gap: 23px;
+    margin-right: 100px;
+}
+.navlinks, a {
+    text-decoration: none;
+    color: rgba(77, 77, 77, 1);
+   margin-left: 20px; 
+   
+
+}
+.nav-btn{
+ background-color:rgba(76, 175, 79, 1) ; 
+ width: 133.25px; 
+ height: 36.49px;
+ border-radius: 2.78px;
+ border: 1px solid green;
+ color: #ffffff;
+}
+.hero{
+height:416.95px;
+background-color: rgba(245, 247, 250, 1);
+display: flex;
+justify-content: space-between;
+padding: 66.82px, 100.23px, 66.82px, 100.23px;
+
+}
+.hero-section{
+    padding-top: 66.82px;
+    margin-left: 100.23px;
+}
+.hero-header{
+    font-size: 44.55px;
+    height: 106px;
+    width: 457.32px;
+    font-weight: 600;
+    line-height: 52.9px;
+    margin-bottom: 15px;
+}
+span{
+    color: rgba(76, 175, 79, 1);
+}
+.hero-text{
+    font-size: 11.14px;
+    font-weight: 400;
+    line-height: 16.71px;
+    height: 17px;
+    width: 457.32px;
+    margin-bottom: 30px;
+}
+.hero-tagline{
+gap: 22.27px;
+}
+.img{
+    height:283.3px;
+    margin-top: 66.82px;
+    margin-right:100.23px;
+}
+.hero-btn{
+    background-color:rgba(76, 175, 79, 1) ;
+    width:89.55px;
+    height:36.49px;
+    border-radius: 2.78px;
+}
+.client-section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100.23px 0px 100.23px;
+}
+.client-tagline{
+margin-top: 100px;
+margin-left: 200px;
+}
+.client-header{
+    display: flex;
+    justify-content: center;
+    font-size: 25.06px;
+    font-weight: 600;
+    line-height: 30.63px;
+    color: rgba(77, 77, 77, 1);
+}
+.client-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 11.14px;
+    font-weight: 400;
+    line-height: 16.71px;
+
+}
+.client-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    height:68.21px;
+}
+.community-header{
+    text-align: center;
+    font-size:25.06px;
+    font-weight: 600;
+    line-height: 30.63px;
+    color: rgba(77, 77, 77, 1);
+    margin-bottom: 10px;
+}
+.community-text{
+    text-align: center;
+    line-height: 16.71px;
+   font-size: 11.14px;
+  font-weight: 400;
+}
+.card-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 90px;
+}
+.card-container1{
+    border: 2px solid black;
+    border-radius: 2.67px;
+    height:250px;
+    width:250px;
+    padding: 8.01px 10.68px 8.01px 10.68px;
+    background-color: #ffffff;
+
+}
+.card-container2{
+    border: 2px solid black;
+    border-radius: 2.67px;
+    height:250px;
+    width:250px;
+    padding: 8.01px 10.68px 8.01px 10.68px;
+    background-color: #ffffff;
+}
+.card-container3{
+    border: 2px solid black;
+    border-radius: 2.67px;
+    height:250px;
+    width:250px;
+    padding: 8.01px 10.68px 8.01px 10.68px;
+    background-color: #ffffff;
+}
+.card-img{
+    margin-bottom: 10px;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+.card-header{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 600px;
+}
+.hero-img2{
+    height: 400px;
+    width: 500px;
+}
+.hero-tagline2{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.hero-header2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(77, 77, 77, 1);
+    margin-bottom: 20px;
+}
+
+.hero-btn2{
+      background-color:rgba(76, 175, 79, 1) ;
+    width:89.55px;
+    height:36.49px;
+    border: 1px solid green;
+    border-radius: 2.78px;
+    margin-top: 20px;
+}
